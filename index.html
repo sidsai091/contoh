@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrameCraft - Creative Studio</title>
+    <meta name="description" content="Award-winning design studio specializing in architecture, interiors, and brand experiences">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="/" class="logo">STUDIO</a>
+
+            <div class="nav-links">
+                <a href="#work" class="nav-link">WORK</a>
+                <a href="#about" class="nav-link">ABOUT</a>
+                <a href="#services" class="nav-link">SERVICES</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+
+            <a href="#contact" class="cta-button">GET IN TOUCH</a>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-bg-gradient"></div>
+
+        <div class="decorative-line decorative-line-1"></div>
+        <div class="decorative-line decorative-line-2"></div>
+
+        <div class="hero-content">
+            <div class="hero-grid">
+                <!-- Left Side - Text Content -->
+                <div class="hero-text">
+                    <div class="eyebrow">
+                        <div class="eyebrow-line"></div>
+                        <span>CREATIVE STUDIO</span>
+                    </div>
+
+                    <h1 class="hero-heading">
+                        <span class="hero-heading-line">We craft</span>
+                        <span class="hero-heading-line">
+                            <span class="text-muted">bold </span>
+                            <span class="rotating-text-container">
+                                <span class="rotating-text rotate-text-1">spaces</span>
+                                <span class="rotating-text rotate-text-2">visions</span>
+                                <span class="rotating-text rotate-text-3">stories</span>
+                                <span class="rotating-text-spacer">visions</span>
+                            </span>
+                        </span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Award-winning design studio specializing in architecture, interiors, and brand experiences that leave lasting impressions.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#work" class="btn-primary">
+                            VIEW OUR WORK
+                            <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
+                        </a>
+                        <a href="#about" class="btn-secondary">
+                            <span class="btn-line"></span>
+                            LEARN MORE
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-value">150+</span>
+                            <p class="stat-label">PROJECTS</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">12</span>
+                            <p class="stat-label">AWARDS</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">8</span>
+                            <p class="stat-label">YEARS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Rotating Images -->
+                <div class="hero-images">
+                    <div class="image-container">
+                        <div class="decorative-frame"></div>
+
+                        <div class="images-stack">
+                            <img src="assets/hero-architecture.jpg" alt="Modern architecture" class="hero-image fade-image-1" />
+                            <img src="assets/hero-art.jpg" alt="Contemporary art" class="hero-image fade-image-2" />
+                            <img src="assets/hero-interior.jpg" alt="Luxury interior" class="hero-image fade-image-3" />
+                        </div>
+
+                        <div class="image-label">
+                            <div class="image-label-line"></div>
+                            <span>FEATURED WORK</span>
+                        </div>
+
+                        <div class="vertical-text">
+                            <span>SCROLL TO EXPLORE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-line"></div>
+    </section>
+
+    <!-- Top Picks Section -->
+    <section class="top-picks-section" id="work">
+        <div class="section-header">
+            <h2 class="section-title">Our Top Picks</h2>
+            <button class="see-all-btn">
+                See All
+                <span class="arrow">→</span>
+            </button>
+        </div>
+
+        <div class="picks-grid">
+            <div class="pick-card">
+                <div class="pick-image-wrapper">
+                    <img src="assets/pick-1.jpg" alt="Modern Living" class="pick-image" />
+                </div>
+                <div class="pick-overlay"></div>
+                <div class="pick-content">
+                    <h3 class="pick-title">Modern Living</h3>
+                    <p class="pick-description">A minimalist sanctuary where light and space converge to create timeless elegance.</p>
+                </div>
+            </div>
+
+            <div class="pick-card">
+                <div class="pick-image-wrapper">
+                    <img src="assets/pick-2.jpg" alt="Art Gallery" class="pick-image" />
+                </div>
+                <div class="pick-overlay"></div>
+                <div class="pick-content">
+                    <h3 class="pick-title">Art Gallery</h3>
+                    <p class="pick-description">Curated spaces that celebrate the dialogue between art and architecture.</p>
+                </div>
+            </div>
+
+            <div class="pick-card">
+                <div class="pick-image-wrapper">
+                    <img src="assets/pick-3.jpg" alt="Luxury Hospitality" class="pick-image" />
+                </div>
+                <div class="pick-overlay"></div>
+                <div class="pick-content">
+                    <h3 class="pick-title">Luxury Hospitality</h3>
+                    <p class="pick-description">Where refined materials meet warm ambiance for unforgettable experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-grid">
+                <!-- Text Content -->
+                <div class="about-text">
+                    <div>
+                        <span class="section-label">ABOUT US</span>
+                        <h2 class="about-heading">
+                            Crafting Timeless<br />
+                            <span class="italic">Elegance</span> Since 1998
+                        </h2>
+                    </div>
+
+                    <p class="about-paragraph-large">
+                        We believe that exceptional design transcends trends. Our curated
+                        collections bring together the finest craftsmanship, sustainable
+                        materials, and visionary aesthetics to create spaces that inspire
+                        and endure.
+                    </p>
+
+                    <p class="about-paragraph">
+                        From intimate residences to grand commercial projects, we partner
+                        with world-renowned artisans and designers to deliver pieces that
+                        tell your unique story. Every selection in our portfolio represents
+                        our unwavering commitment to quality and beauty.
+                    </p>
+
+                    <div class="about-buttons">
+                        <button class="btn-filled">OUR STORY</button>
+                        <button class="btn-outlined">MEET THE TEAM</button>
+                    </div>
+                </div>
+
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                            </svg>
+                        </div>
+                        <span class="stat-card-value">25+</span>
+                        <span class="stat-card-label">YEARS OF EXCELLENCE</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <span class="stat-card-value">10K+</span>
+                        <span class="stat-card-label">HAPPY CLIENTS</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6 3h12l4 6-10 13L2 9z"></path>
+                                <path d="M11 3L8 9l4 13 4-13-3-6z"></path>
+                            </svg>
+                        </div>
+                        <span class="stat-card-value">500+</span>
+                        <span class="stat-card-label">UNIQUE DESIGNS</span>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <span class="stat-card-value">24/7</span>
+                        <span class="stat-card-label">CUSTOMER SUPPORT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chosen by Famous Section -->
+    <section class="chosen-section" id="services">
+        <div class="chosen-header">
+            <h2 class="section-title">Chosen by The Famous</h2>
+        </div>
+
+        <!-- Marquee Container -->
+        <div class="marquee-container">
+            <div class="fade-left"></div>
+            <div class="fade-right"></div>
+
+            <!-- Marquee Line 1 -->
+            <div class="marquee-wrapper">
+                <div class="marquee marquee-left">
+                    <span>Forbes</span>
+                    <span>Vogue</span>
+                    <span>Architectural Digest</span>
+                    <span>Elle Decor</span>
+                    <span>Wallpaper*</span>
+                    <span>Dezeen</span>
+                    <span>Dwell</span>
+                    <span>House Beautiful</span>
+                    <span>Interior Design</span>
+                    <span>Monocle</span>
+                </div>
+                <div class="marquee marquee-left" aria-hidden="true">
+                    <span>Forbes</span>
+                    <span>Vogue</span>
+                    <span>Architectural Digest</span>
+                    <span>Elle Decor</span>
+                    <span>Wallpaper*</span>
+                    <span>Dezeen</span>
+                    <span>Dwell</span>
+                    <span>House Beautiful</span>
+                    <span>Interior Design</span>
+                    <span>Monocle</span>
+                </div>
+            </div>
+
+            <!-- Marquee Line 2 -->
+            <div class="marquee-wrapper">
+                <div class="marquee marquee-right">
+                    <span>The New York Times</span>
+                    <span>Bloomberg</span>
+                    <span>Financial Times</span>
+                    <span>The Guardian</span>
+                    <span>Condé Nast</span>
+                    <span>Hypebeast</span>
+                    <span>Highsnobiety</span>
+                    <span>Surface</span>
+                    <span>Frame</span>
+                    <span>Kinfolk</span>
+                </div>
+                <div class="marquee marquee-right" aria-hidden="true">
+                    <span>The New York Times</span>
+                    <span>Bloomberg</span>
+                    <span>Financial Times</span>
+                    <span>The Guardian</span>
+                    <span>Condé Nast</span>
+                    <span>Hypebeast</span>
+                    <span>Highsnobiety</span>
+                    <span>Surface</span>
+                    <span>Frame</span>
+                    <span>Kinfolk</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials-container">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <blockquote>
+                        <p>"Their attention to detail and understanding of space is unparalleled. Every project feels like a masterpiece."</p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Victoria Chen</span>
+                        <span class="author-role">Creative Director, Vogue Living</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <blockquote>
+                        <p>"A rare blend of innovation and timeless elegance. They've redefined what modern luxury means to us."</p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Marcus Webb</span>
+                        <span class="author-role">Editor-in-Chief, Architectural Digest</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <blockquote>
+                        <p>"Working with them transformed our vision into reality. The result exceeded every expectation we had."</p>
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <span class="author-name">Elena Rodriguez</span>
+                        <span class="author-role">Founder, Casa Moderna</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="contact">
+        <div class="faq-container">
+            <div class="faq-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="faq-subtitle">Everything you need to know about our services and process.</p>
+            </div>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        What services do you offer?
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We offer a comprehensive range of design services including interior design consultation, space planning, furniture curation, custom furniture design, and full project management for residential and commercial spaces.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        How long does a typical project take?
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Project timelines vary based on scope and complexity. A single room design typically takes 4-6 weeks, while full home renovations can take 3-6 months. We'll provide a detailed timeline during our initial consultation.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        Do you work with clients remotely?
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes, we offer virtual design services for clients worldwide. Our digital-first approach includes video consultations, 3D renderings, and detailed design packages that make remote collaboration seamless.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        What is your pricing structure?
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We offer flexible pricing options including flat-fee packages for defined scopes, hourly consultation rates, and percentage-based fees for larger projects. Contact us for a personalized quote based on your needs.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-trigger">
+                        Can you work within my budget?
+                        <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="6 9 12 15 18 9"></polyline>
+                        </svg>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Absolutely. We work with a range of budgets and can tailor our recommendations accordingly. During our consultation, we'll discuss your budget and create a design plan that maximizes value while achieving your vision.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">FrameCraft</h3>
+                    <p class="footer-tagline">Curating timeless artistry for modern spaces.</p>
+                </div>
+
+                <nav class="footer-nav">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#work">Gallery</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook" class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Instagram" class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="Twitter" class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="YouTube" class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© <span id="year"></span> FrameCraft. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
